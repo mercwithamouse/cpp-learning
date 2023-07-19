@@ -41,3 +41,15 @@ int main()
     tetromino[6].append(L".X..");
     tetromino[6].append(L".X..");
 }
+
+
+int rotate(int px, int py, int r)
+{
+    switch (r%4)
+    {
+        case 0: return py * 4 + px; // 0 Degree rotation
+        case 1: return 12 + py - (px * 4); // 90 Degree rotation
+        case 2: return 15 - px - (py * 4); // 180 Degree rotation
+        case 3: return 3 - py + (px * 4); // 270 Degree rotation
+    }
+}
