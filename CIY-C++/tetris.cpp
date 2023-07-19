@@ -2,6 +2,10 @@
 
 std::wstring tetromino[7];
 
+int rotate();
+int boardWidth = 12;
+int boardHeight = 18;
+
 int main()
 {
 
