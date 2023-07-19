@@ -1,6 +1,6 @@
 #include <iostream>
 
-void helloWorld(); // Declaring Function, order is top down
+void helloWorld(); // Declaring Function, order is top down. Syntax: type name ( argument1, argument2 ...) { statements 
 void helloName(std::string name); // Declare Function, data type, and variable being referenced
 void idDisplay(std::string name, int age); // Allows multiple data types and variables
 
